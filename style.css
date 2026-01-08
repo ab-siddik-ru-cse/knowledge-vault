@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px;
+}
+
+.menu-items ul {
+    display: flex;
+    gap: 32px;
+}
+
+.menu-items ul li {
+    list-style: none;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.menu-items ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-items ul li a:hover {
+    color: #469165;
+    transition: 0.3s;
+}
+
+.btn1 button {
+    padding: 12px 16px;
+    border: none;
+    background-color: #469165;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 4px;
+    border: 1px solid #469165;
+    cursor: pointer;
+}
+
+.btn1 button:hover {
+    background-color: transparent;
+    color: #469165;
+    border: 1px solid #469165;
+    transition: 0.4s;
+}
+
+.hero-container {
+    height: 674px;
+    background: url('assets/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+}
+.hero-content{
+    text-align: center;
+    padding: 155px 340px;
+}
+.hero-content .btn2 button{
+    background-color: white;
+    padding: 8px 10px;
+    border-radius: 30px;
+    color: #469165;
+    font-size: 16px;
+}
+button img{
+    width: 16px;
+    height: 16px;
+    margin: 0px 8px;
+}
+.hero-content h1{
+    font-size: 85px;
+    font-weight: 900;
+    color: white;
+}
+.hero-content h1 span{
+    display: block;
+    color: #469165;
+    margin-bottom: 16px;
+}
+.hero-content p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    color: white;
+    margin-bottom: 32px;
+}
+.hero-content .btn1 button{
+    margin-left: 20px;
+}
