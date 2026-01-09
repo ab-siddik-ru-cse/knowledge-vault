@@ -121,11 +121,9 @@ button img{
 }
 .note-card{
     display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 24px;
-    width: 1360px;
     margin: 0 auto;
+    width: 1360px;
 }
 .card1{
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.06);
@@ -155,4 +153,45 @@ button img{
     color: #627382;
     line-height: 20px;
     width: 240px;
+}
+.brain-content{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding: 120px;
+}
+
+.brain-text {
+    padding: 102px 0px;
+}
+.color-green{
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+.brain-text h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.brain-text p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #627382;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+.brain-text h6{
+    font-size: 16px;
+    font-weight: 600;
+    color: #001931;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+.brain-text i{
+    color: #469165;
+    margin-right: 8px;
 }
