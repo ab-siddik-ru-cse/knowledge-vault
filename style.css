@@ -3,11 +3,20 @@
     bottom: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: 'Inter', sans-serif;
     scroll-behavior: smooth;
     max-width: 1600px;
     margin: 0 auto;
+}
+ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    cursor: pointer;
 }
 .nav-bar {
     display: flex;
