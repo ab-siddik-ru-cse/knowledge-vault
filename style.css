@@ -69,6 +69,11 @@
     color: #469165;
     font-size: 16px;
 }
+.hero-content .btn2 button:hover{
+    background-color: transparent;
+    color: white;
+    transition: 0.4s;
+}
 button img{
     width: 16px;
     height: 16px;
@@ -93,4 +98,61 @@ button img{
 }
 .hero-content .btn1 button{
     margin-left: 20px;
+}
+.note-container{
+    margin-top: 80px;
+
+}
+.note-container-text{
+    text-align: center;
+}
+.note-container-text h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.note-container-text p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #627382;
+    line-height: 20px;
+    margin-bottom: 44px;
+}
+.note-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    width: 1360px;
+    margin: 0 auto;
+}
+.card1{
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.06);
+    padding: 24px;
+    text-align: center;
+    width: 280px;
+    height: 220px;
+}
+.card1 .fa-solid{
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    color: #ffffff;
+    background-color: #F95555;
+    border-radius: 50%;
+    padding-top: 12px;
+}
+.card1 h3{
+    margin: 16px 0px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+}
+.card1 p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #627382;
+    line-height: 20px;
+    width: 240px;
 }
